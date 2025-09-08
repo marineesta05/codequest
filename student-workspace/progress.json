@@ -1,6 +1,6 @@
 {
   "currentAct": 1,
-  "currentScene": "N04-reduce-immutability",
+  "currentScene": "N05-closures-modules",
   "completedScenes": [
     "N00-intro",
     "N01-functions"
@@ -76,10 +76,16 @@
       "attempts": 0,
       "status": "started",
       "timeSpent": 0
+    },
+    "N05-closures-modules": {
+      "startTime": "2025-09-08T12:58:32.249Z",
+      "attempts": 0,
+      "status": "started",
+      "timeSpent": 0
     }
   },
   "hintsUsed": {},
   "totalScore": 0,
   "studentId": "student",
-  "lastUpdated": "2025-09-08T12:56:18.805Z"
+  "lastUpdated": "2025-09-08T12:59:20.718Z"
 }

@@ -7,6 +7,11 @@
  */
 function createCounter(start = 0) {
   // TODO: Retourner { next:()=>++count, value:()=>count }
+  let count = start;
+  return {
+    next: () => ++count,
+    value: () => count
+  };
 }
 
 /**
@@ -14,6 +19,16 @@ function createCounter(start = 0) {
  */
 function createLogger() {
   // TODO: Retourner { log:(m)=>..., get:()=>[...], clear:()=>... }
+  const messages = [];
+  return {
+    log: (message) => {
+      messages.push(message);
+    },
+    get: () => [...messages],
+    clear: () => {
+      messages.length = 0;
+    }
+  };
 }
 
 /**
@@ -21,6 +36,15 @@ function createLogger() {
  */
 function createCache() {
   // TODO: get/set/has/size avec encapsulation
+  const cache = new Map();
+  return {
+    get: (key) => cache.get(key),
+    set: (key, value) => {
+      cache.set(key, value);
+    },
+    has: (key) => cache.has(key),
+    size: () => cache.size
+  };
 }
 
 /**
