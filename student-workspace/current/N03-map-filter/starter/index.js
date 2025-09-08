@@ -7,6 +7,7 @@
  */
 function doubleNumbers(numbers) {
   // TODO: Utiliser .map() pour doubler
+  return numbers.map(n => n * 2);
 }
 
 /**
@@ -14,6 +15,7 @@ function doubleNumbers(numbers) {
  */
 function filterEven(numbers) {
   // TODO: Utiliser .filter() avec isEven
+  return numbers.filter(n => n % 2 === 0);
 }
 
 /**
@@ -21,6 +23,7 @@ function filterEven(numbers) {
  */
 function evenDoubled(numbers) {
   // TODO: Chaîner .filter().map()
+  return numbers.filter(n => n % 2 === 0).map(n => n * 2);
 }
 
 /**
