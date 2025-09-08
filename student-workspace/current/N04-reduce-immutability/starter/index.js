@@ -7,6 +7,7 @@
  */
 function sum(numbers) {
   // TODO: numbers.reduce((acc,n)=>acc+n, 0)
+  return numbers.reduce((acc, n) => acc + n, 0);
 }
 
 /**
@@ -14,6 +15,7 @@ function sum(numbers) {
  */
 function product(numbers) {
   // TODO: numbers.reduce((acc,n)=>acc*n, 1)
+  return numbers.reduce((acc, n) => acc * n, 1);
 }
 
 /**
@@ -21,6 +23,9 @@ function product(numbers) {
  */
 function frequencyMap(values) {
   // TODO: Construire { valeur: compteur } sans muter l'accumulateur original
+  return values.reduce((acc, v) => {
+    return { ...acc, [v]: (acc[v] || 0) + 1 };
+  }, {});
 }
 
 /**
@@ -28,6 +33,7 @@ function frequencyMap(values) {
  */
 function joinWith(values, sep = ',') {
   // TODO: Implémenter join via reduce
+  return values.reduce((acc, v, i) => (i === 0 ? v : acc + sep + v), '');
 }
 
 /**
