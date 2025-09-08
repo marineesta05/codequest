@@ -32,10 +32,10 @@
   "scenes": {
     "N00-warmup": {
       "startTime": "2025-09-07T23:32:21.572Z",
-      "attempts": 15,
-      "status": "failed",
-      "timeSpent": 624,
-      "lastValidation": "2025-09-08T09:56:03.065Z"
+      "attempts": 17,
+      "status": "base",
+      "timeSpent": 791,
+      "lastValidation": "2025-09-08T12:43:43.568Z"
     },
     "N06-boss-integration": {
       "startTime": "2025-09-08T04:51:46.711Z",
@@ -46,16 +46,17 @@
     },
     "N01-pure-functions": {
       "startTime": "2025-09-08T04:55:57.066Z",
-      "attempts": 4,
-      "status": "failed",
-      "timeSpent": 185,
-      "lastValidation": "2025-09-08T08:01:03.233Z"
+      "attempts": 5,
+      "status": "base",
+      "timeSpent": 470,
+      "lastValidation": "2025-09-08T12:46:07.634Z"
     },
     "N00-warmup-tutorial": {
       "startTime": "2025-09-08T05:47:39.034Z",
-      "attempts": 0,
-      "status": "started",
-      "timeSpent": 0
+      "attempts": 1,
+      "status": "base",
+      "timeSpent": 417,
+      "lastValidation": "2025-09-08T12:45:00.944Z"
     },
     "N02-destructuring": {
       "startTime": "2025-09-08T05:47:48.847Z",
@@ -67,5 +68,5 @@
   "hintsUsed": {},
   "totalScore": 0,
   "studentId": "student",
-  "lastUpdated": "2025-09-08T09:56:03.065Z"
+  "lastUpdated": "2025-09-08T12:46:07.634Z"
 }

@@ -12,6 +12,7 @@
 function ping(message) {
   // TODO: Retourner le message préfixé par "pong: "
   // Indice: Utiliser la concaténation de strings ou template literals
+  return `pong: ${message}`;
 }
 
 /**
@@ -22,35 +23,50 @@ function ping(message) {
 // Simples
 function echoUpper(s) {
   // TODO: Retourner s en majuscules
+  return s.toUpperCase();
 }
 
 function trimAndPing(s) {
   // TODO: `pong: ${s.trim()}`
+  return `pong: ${s.trim()}`;
 }
 
 function prefix(s, p = '>> ') {
   // TODO: Préfixer s par p
+  return p + s;
 }
 
 function suffix(s, suf = ' <<') {
   // TODO: Suffixer s par suf
+  return s + suf;
 }
 
 function surround(s, left = '[', right = ']') {
   // TODO: Entourer s avec left/right
+  return left + s + right;
 }
 
 // Faciles
 function countWords(s) {
   // TODO: Compter mots séparés par espaces multiples
+  if (!s.trim()) return 0;
+  return s.trim().split(/\s+/).length;
+
 }
 
 function maskEmail(email) {
   // TODO: 'john.doe@example.com' → 'j***@example.com'
+  const [local, domain] = email.split('@');
+  if (local.length <= 1) {
+    return `***@${domain}`;
+  }
+  return `${local[0]}***@${domain}`;
+
 }
 
 function kebab(str) {
   // TODO: Kebab-case
+  
 }
 
 function snake(str) {
