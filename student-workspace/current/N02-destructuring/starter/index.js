@@ -7,7 +7,9 @@
  */
 function extractName(user) {
   // TODO: Utiliser destructuring pour extraire name
-  // const { name } = user;
+  const { name } = user;
+  return name;
+
 }
 
 /**
@@ -15,7 +17,8 @@ function extractName(user) {
  */
 function mergeObjects(obj1, obj2) {
   // TODO: Utiliser spread pour fusionner
-  // return { ...obj1, ...obj2 };
+  return { ...obj1, ...obj2 };
+
 }
 
 /**
@@ -24,7 +27,8 @@ function mergeObjects(obj1, obj2) {
  */
 function setDefault(config) {
   // TODO: Fusionner avec défauts
-  // const defaults = { lang: 'en', debug: false };
+  const defaults = { lang: 'en', debug: false };
+  return { ...defaults, ...config };
 }
 
 /**
