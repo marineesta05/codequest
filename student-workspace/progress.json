@@ -1,6 +1,6 @@
 {
   "currentAct": 1,
-  "currentScene": "N05-closures-modules",
+  "currentScene": "N06-boss-integration",
   "completedScenes": [
     "N00-intro",
     "N01-functions"
@@ -39,10 +39,10 @@
     },
     "N06-boss-integration": {
       "startTime": "2025-09-08T04:51:46.711Z",
-      "attempts": 4,
-      "status": "failed",
-      "timeSpent": 6,
-      "lastValidation": "2025-09-08T04:57:52.428Z"
+      "attempts": 5,
+      "status": "base",
+      "timeSpent": 492,
+      "lastValidation": "2025-09-08T13:03:44.140Z"
     },
     "N01-pure-functions": {
       "startTime": "2025-09-08T04:55:57.066Z",
@@ -87,5 +87,5 @@
   "hintsUsed": {},
   "totalScore": 0,
   "studentId": "student",
-  "lastUpdated": "2025-09-08T12:59:20.718Z"
+  "lastUpdated": "2025-09-08T13:03:44.140Z"
 }
